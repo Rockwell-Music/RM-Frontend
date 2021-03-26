@@ -1,7 +1,6 @@
-import React, {useState, useEffect, useRef} from 'react';
+import React, { useState, useEffect } from 'react';
 import { Image, Row, Col, Card } from 'react-bootstrap';
-import { useSpring, animated, interpolate } from 'react-spring';
-import { FaGuitar } from 'react-icons';
+import { useSpring, animated } from 'react-spring';
 import './Home.css';
 
 function debounce(func, wait = 5, immediate = false) {
