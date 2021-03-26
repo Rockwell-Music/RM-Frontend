@@ -17,7 +17,7 @@ export default function Footer() {
 
                 <h1 className="footer-header">SUPPORT</h1>
                 <a href="tel:760-123-4567" className="footer-text">Tel. (760)-123-4568</a>
-                <a href="mailto:support@rockwellmusicrepairs.com" className="footer-text">Email: support@rockwellmusicrepairs.com</a>
+                <a href="mailto:support@rockwellmusicrepairs.com" className="footer-text">Email: support@rockwellmusicrepair.com</a>
 
                 <br></br>
 

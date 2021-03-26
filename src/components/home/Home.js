@@ -208,7 +208,7 @@ export default function Home() {
                                 <Card.Title className="home-card-title">Custom Builds</Card.Title>
                                 
                                 <Card.Text className="home-card-body">
-                                    We can help you bring your ideas and dreams to reality.
+                                    We can help you bring your ideas and dreams to life.
                                 </Card.Text>
                             </Card.Body>
                         </Card>

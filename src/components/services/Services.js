@@ -128,7 +128,7 @@ export default function Services() {
                         </Card.Header>
                                 
                         <Accordion.Collapse eventKey="0">
-                            <Card.Body className="faq-card-body">No appointment is necessary. Just drop by your nearest Guitar Center location. You can certainly make an appointment if you prefer–it might save you from waiting in line, but it is not required.</Card.Body>
+                            <Card.Body className="faq-card-body">No appointment is necessary. You are welcome to make an appointment if you prefer and it may save you from waiting in line.</Card.Body>
                         </Accordion.Collapse>
                     </Card>
 
@@ -140,7 +140,7 @@ export default function Services() {
                         </Card.Header>
                                 
                         <Accordion.Collapse eventKey="1">
-                            <Card.Body className="faq-card-body">We'll get right on it. Prompt turnaround is always a priority at Guitar Center Repairs. However, exact times depend on each store's volume of repairs. Guitar Center guarantees the strictest quality and productivity standards at all Guitar Center Repairs locations.</Card.Body>
+                            <Card.Body className="faq-card-body">At the time of taking in the instrument we will offer a time estimate but these estimates are subject to change unexpectedly.</Card.Body>
                         </Accordion.Collapse>
                     </Card>
 
