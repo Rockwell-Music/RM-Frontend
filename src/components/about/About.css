@@ -1,0 +1,42 @@
+.about-container {
+    background-color: #121212;
+    border: 1px solid rgba(0,0,0,.125);
+    border-top: 8px solid #cdad58;
+    border-bottom: 8px solid #cdad58;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.about-title {
+    font-size: 24px;
+    font-family: 'Archivo Black', sans-serif;
+    color: #cdad58!important;
+    margin-bottom: 8px;
+}
+
+.image-left {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.about-text {
+    color: white!important;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-body {
+    padding-right: 32px;
+}
+
+.about-hours {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: white!important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-link {
+    color: #cdad58!important;
+}

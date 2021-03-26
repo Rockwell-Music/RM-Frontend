@@ -1,0 +1,58 @@
+.services-container {
+    background-color: #121212;
+    border: 1px solid rgba(0,0,0,.125);
+    border-top: 8px solid #cdad58;
+    border-bottom: 8px solid #cdad58;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.service-title {
+    font-size: 24px;
+    font-family: 'Archivo Black', sans-serif;
+    color: #cdad58!important;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.card {
+    background-color: #1c1c1c;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.2s ease-in;
+}
+
+.card:hover {
+    background: #242424;
+}
+
+.card-body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: white!important;
+}
+
+.card-title {
+    font-family: 'Archivo Black', sans-serif;
+    color: #cdad58!important;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.card-text ul {
+    padding: 16px;
+}
+
+.faq-button {
+    font-family: 'Open Sans', sans-serif;
+    color: white!important;
+}
+
+.faq-card-body {
+    background-color: #121212;
+}
+
+.faq-expand-icon {
+    color: #cdad58!important;
+    margin-right: 8px;
+}

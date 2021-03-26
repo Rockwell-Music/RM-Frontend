@@ -1,0 +1,82 @@
+@media only screen and (max-width: 768px) {
+    .coachella-banner {
+        margin-bottom: 900px;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 950px) {
+    .coachella-banner {
+        margin-bottom: 400px;
+    }
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1250px) {
+    .coachella-banner {
+        margin-bottom: 550px;
+    }
+}
+
+@media only screen and (min-width: 1251px) and (max-width: 1400px) {
+    .coachella-banner {
+        margin-bottom: 650px;
+    }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+    .coachella-banner {
+        margin-bottom: 800px;
+    }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1800px) {
+    .coachella-banner {
+        margin-bottom: 950px;
+    }
+}
+
+@media only screen and (min-width: 1801px) and (max-width: 1920px) {
+    .coachella-banner {
+        margin-bottom: 950px;
+    }
+}
+
+.home-container {
+    background-color: #121212;
+    border: 1px solid rgba(0,0,0,.125);
+    border-top: 8px solid #cdad58;
+    border-bottom: 8px solid #cdad58;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.coachella-banner-element {
+    max-width: 100%;
+}
+
+.coachella-mountains {
+    position: absolute;
+    top: 0;
+    margin-top: 100px;
+    z-index: -1;
+}
+
+.home-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Archivo Black', sans-serif;
+    color: #cdad58!important;
+    margin-bottom: 16px;
+}
+
+.home-card {
+    margin-bottom: 16px;
+}
+
+.home-card-title {
+    text-align: center;
+}
+
+.home-card-body {
+    text-align: center;
+}

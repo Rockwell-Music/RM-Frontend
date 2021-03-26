@@ -1,0 +1,75 @@
+@media screen and (min-width: 1000px) {
+    .logo {
+        max-width: 30%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .logo {
+        max-width: 100%;
+    }
+}
+
+.navigation {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.link {
+    color: #cdad58!important;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 16px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    width: 50%;
+}
+
+.contact-modal {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-body, .modal-footer, .modal-header {
+    border: none;
+    border-radius: 0;
+}
+
+.modal-header, .modal-footer {
+    background-color: #070707!important;
+}
+
+.modal-body {
+    background-color: #0a0a0a!important;
+}
+
+.modal-title {
+    font-family: 'Archivo Black', sans-serif;
+    color: #cdad58!important;
+    text-transform: uppercase;
+}
+
+.modal-body h1 {
+    color: white!important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+
+.modal-body p {
+    color: white!important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.modal-btn {
+    background-color: #cdad58!important;
+    border: none;
+    color: black!important;
+}
+
+.modal-nomargin {
+    margin: 0!important;
+}
