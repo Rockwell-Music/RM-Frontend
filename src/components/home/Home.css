@@ -10,6 +10,12 @@
     }
 }
 
+@media only screen and (min-width: 767px) and (max-width: 800px) {
+    .coachella-banner {
+        margin-bottom: 1500px;
+    }
+}
+
 @media only screen and (min-width: 951px) and (max-width: 1250px) {
     .coachella-banner {
         margin-bottom: 550px;
