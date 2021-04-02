@@ -44,23 +44,35 @@ function ContactModal(props) {
 export default function Navigation() {
     const [modalShow, setModalShow] = React.useState(false);
 
+    function handleScroll() {
+        if (window.scrollY > 20) {
+            document.querySelector(".rockwell-navbar").className="rockwell-navbar scrolled";
+        } else {
+            document.querySelector(".rockwell-navbar").className = "rockwell-navbar unscrolled";
+        }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
     return (
         <div>
-            <Link to="/"><Image src="./logo-long-yellow.png" className="logo"/></Link>
+            <div className="rockwell-navbar">
+                <Link to="/"><Image src="./logo-long-yellow.png" className="logo"/></Link>
 
-            <Nav className="justify-content-center navigation" activeKey="/home">
-                <Nav.Item>
-                    <Nav.Link as={Link} to="/services" className="link hvr-grow">SERVICES</Nav.Link>
-                </Nav.Item>
+                <Nav className="justify-content-center navigation" activeKey="/home">
+                    <Nav.Item>
+                        <Nav.Link as={Link} to="/services" className="link hvr-grow">SERVICES</Nav.Link>
+                    </Nav.Item>
 
-                <Nav.Item>
-                    <Nav.Link as={Link} to="/about" className="link hvr-grow">ABOUT</Nav.Link>
-                </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link as={Link} to="/about" className="link hvr-grow">ABOUT</Nav.Link>
+                    </Nav.Item>
 
-                <Nav.Item>
-                    <Nav.Link onClick={() => setModalShow(true)} className="link hvr-grow">CONTACT</Nav.Link>
-                </Nav.Item>
-            </Nav>
+                    <Nav.Item>
+                        <Nav.Link onClick={() => setModalShow(true)} className="link hvr-grow">CONTACT</Nav.Link>
+                    </Nav.Item>
+                </Nav>
+            </div>
 
             <Switch>
                 <Route path="/about">

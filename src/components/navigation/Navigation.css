@@ -10,6 +10,83 @@
     }
 }
 
+.rockwell-navbar {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    z-index: 2;
+}
+
+.scrolled {
+    background-color: rgba(0, 0, 0, 0.75);
+    animation: fadeIn ease-in-out 0.2s;
+    -webkit-animation: fadeIn ease-in-out 0.2s;
+    -moz-animation: fadeIn ease-in-out 0.2s;
+    -o-animation: fadeIn ease-in-out 0.2s;
+    -ms-animation: fadeIn ease-in-out 0.2s;
+}
+
+.unscrolled {
+    background-color: none;
+    animation: fadeOut ease-in-out 0.2s;
+    -webkit-animation: fadeOut ease-in-out 0.2s;
+    -moz-animation: fadeOut ease-in-out 0.2s;
+    -o-animation: fadeOut ease-in-out 0.2s;
+    -ms-animation: fadeOut ease-in-out 0.2s;
+}
+
+@keyframes fadeIn {
+    0% { background-color: rgba(0, 0, 0, 0.0); }
+    100% { background-color: rgba(0, 0, 0, 0.75) }
+}
+    
+@-moz-keyframes fadeIn {
+    0% { background-color: rgba(0, 0, 0, 0.0); }
+    100% { background-color: rgba(0, 0, 0, 0.75) }
+}
+    
+@-webkit-keyframes fadeIn {
+    0% { background-color: rgba(0, 0, 0, 0.75); }
+    100% { background-color: rgba(0, 0, 0, 0.0) }
+}
+    
+@-o-keyframes fadeIn {
+    0% { background-color: rgba(0, 0, 0, 0.75); }
+    100% { background-color: rgba(0, 0, 0, 0.0) }
+}
+    
+@-ms-keyframes fadeIn {
+    0% { background-color: rgba(0, 0, 0, 0.75); }
+    100% { background-color: rgba(0, 0, 0, 0.0) }
+}
+
+@keyframes fadeOut {
+    0% { background-color: rgba(0, 0, 0, 0.75); }
+    100% { background-color: rgba(0, 0, 0, 0.0) }
+}
+    
+@-moz-keyframes fadeOut {
+    0% { background-color: rgba(0, 0, 0, 0.75); }
+    100% { background-color: rgba(0, 0, 0, 0.0) }
+}
+    
+@-webkit-keyframes fadeOut {
+    0% { background-color: rgba(0, 0, 0, 0.75); }
+    100% { background-color: rgba(0, 0, 0, 0.0) }
+}
+    
+@-o-keyframes fadeOut {
+    0% { background-color: rgba(0, 0, 0, 0.75); }
+    100% { background-color: rgba(0, 0, 0, 0.0) }
+}
+    
+@-ms-keyframes fadeOut {
+    0% { background-color: rgba(0, 0, 0, 0.75); }
+    100% { background-color: rgba(0, 0, 0, 0.0) }
+}
+
 .navigation {
     margin-top: 8px;
     margin-bottom: 8px;
