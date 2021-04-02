@@ -116,14 +116,14 @@ function HomeMobile() {
         springscrollY: 0
     }));
   
-    const moonLevel = -10;
+    const moonLevel = -16;
     const mountainLevel = 10;
     const treeLevel = 8;
     const wheelLevel = 8;
-    const balloonLevel = -2;
+    const balloonLevel = -10;
     const backgroundLevel = 8;
-    const textTopLevel = 10;
-    const textTitleLevel = 10;
+    const textTopLevel = 4;
+    const textTitleLevel = 4;
   
     const interpMoon = springscrollY.interpolate(o => `translateY(${o / moonLevel}px)`);
     const interpMountains = springscrollY.interpolate(o => `translateY(${o / mountainLevel}px)`);
