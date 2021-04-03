@@ -10,6 +10,12 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .link {
+        font-size: 0.85rem!important;
+    }
+}
+
 .rockwell-navbar {
     position: -webkit-sticky; /* Safari */
     position: sticky;
@@ -95,7 +101,7 @@
 .link {
     color: #cdad58!important;
     font-family: 'Archivo Black', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .logo {
