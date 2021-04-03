@@ -123,36 +123,60 @@ export default function Services() {
                     <Card className="faq-card">
                         <Card.Header>
                             <Accordion.Toggle as={Button} variant="link" eventKey="0" className="faq-button">
-                                <FaPlus className="faq-expand-icon"/> Do I need an appointment to speak with a repair technitian?
+                                <FaPlus className="faq-expand-icon"/> My instrument is broken, can you fix it?
                             </Accordion.Toggle>
                         </Card.Header>
                                 
                         <Accordion.Collapse eventKey="0">
-                            <Card.Body className="faq-card-body">No appointment is necessary. You are welcome to make an appointment if you prefer and it may save you from waiting in line.</Card.Body>
+                            <Card.Body className="faq-card-body">In most cases the answer is Yes. Bring your instrument in for a quote or send pictures to info@rockwellmusicrepair.com and we'll get back to you with a quote within 2 business days.</Card.Body>
                         </Accordion.Collapse>
                     </Card>
 
                     <Card className="faq-card">
                         <Card.Header>
                             <Accordion.Toggle as={Button} variant="link" eventKey="1" className="faq-button">
-                                <FaPlus className="faq-expand-icon"/> How long will it take for my repair to be completed?
+                                <FaPlus className="faq-expand-icon"/> Do I need an appointment to speak with a repair technitian?
                             </Accordion.Toggle>
                         </Card.Header>
                                 
                         <Accordion.Collapse eventKey="1">
-                            <Card.Body className="faq-card-body">At the time of taking in the instrument we will offer a time estimate but these estimates are subject to change unexpectedly.</Card.Body>
+                            <Card.Body className="faq-card-body">No appointment is necessary. You are welcome to make an appointment if you prefer and it may save you from waiting in line.</Card.Body>
                         </Accordion.Collapse>
                     </Card>
 
                     <Card className="faq-card">
                         <Card.Header>
                             <Accordion.Toggle as={Button} variant="link" eventKey="2" className="faq-button">
-                                <FaPlus className="faq-expand-icon"/> How often do I need maintenance?
+                                <FaPlus className="faq-expand-icon"/> How long will it take for my repair to be completed?
                             </Accordion.Toggle>
                         </Card.Header>
                                 
                         <Accordion.Collapse eventKey="2">
+                            <Card.Body className="faq-card-body">At the time of taking in the instrument we will offer a time estimate but these estimates are subject to change unexpectedly.</Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+
+                    <Card className="faq-card">
+                        <Card.Header>
+                            <Accordion.Toggle as={Button} variant="link" eventKey="3" className="faq-button">
+                                <FaPlus className="faq-expand-icon"/> How often do I need maintenance?
+                            </Accordion.Toggle>
+                        </Card.Header>
+                                
+                        <Accordion.Collapse eventKey="3">
                             <Card.Body className="faq-card-body">How often you need to replace your strings depends on how often you play, climate conditions, type and quality of string, etc. Generally, every three to four weeks is about right, but if you play hard and often, you'll want to change strings as soon as they start to feel grungy or lose tuning stability.</Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+
+                    <Card className="faq-card">
+                        <Card.Header>
+                            <Accordion.Toggle as={Button} variant="link" eventKey="3" className="faq-button">
+                                <FaPlus className="faq-expand-icon"/> Can you customize my instrument?
+                            </Accordion.Toggle>
+                        </Card.Header>
+                                
+                        <Accordion.Collapse eventKey="3">
+                            <Card.Body className="faq-card-body">Yes! We offer custom orders in-store. Give us a call or visit us in person to learn more.</Card.Body>
                         </Accordion.Collapse>
                     </Card>
                 </Accordion>
