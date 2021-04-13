@@ -52,7 +52,7 @@
     }
 
     .coachella-mountains {
-        margin-left: 950px;
+        left: calc(50% - 960px)
     }
 }
 
