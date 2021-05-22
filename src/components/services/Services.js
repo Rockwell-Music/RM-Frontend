@@ -170,12 +170,12 @@ export default function Services() {
 
                     <Card className="faq-card">
                         <Card.Header>
-                            <Accordion.Toggle as={Button} variant="link" eventKey="3" className="faq-button">
+                            <Accordion.Toggle as={Button} variant="link" eventKey="4" className="faq-button">
                                 <FaPlus className="faq-expand-icon"/> Can you customize my instrument?
                             </Accordion.Toggle>
                         </Card.Header>
                                 
-                        <Accordion.Collapse eventKey="3">
+                        <Accordion.Collapse eventKey="4">
                             <Card.Body className="faq-card-body">Yes! We offer custom orders in-store. Give us a call or visit us in person to learn more.</Card.Body>
                         </Accordion.Collapse>
                     </Card>
