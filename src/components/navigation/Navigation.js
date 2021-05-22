@@ -24,7 +24,7 @@ function ContactModal(props) {
 
             <Modal.Body className="modal-body">
                 <h1>Phone:</h1>
-                <p>760-673-9583ß</p>
+                <p>760-673-9583</p>
 
                 <h1>Email:</h1>
                 <p>support@rockwellmusicrepair.com</p>

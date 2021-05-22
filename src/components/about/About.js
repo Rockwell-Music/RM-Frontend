@@ -25,7 +25,7 @@ export default function About() {
                         <br></br>
 
                         <h1 className="about-title">CONTACT US</h1>
-                        <p className="about-hours">Tel. 760-673-9583ßß</p>
+                        <p className="about-hours">Tel. 760-673-9583</p>
                         <p className="about-hours">Email: support@rockwellmusicrepair.com</p>
                     </Col>
                 </Row>
