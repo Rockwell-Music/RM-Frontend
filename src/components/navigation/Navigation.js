@@ -30,8 +30,7 @@ function ContactModal(props) {
                 <p>support@rockwellmusicrepair.com</p>
 
                 <h1>Store Hours:</h1>
-                <p className="modal-nomargin">Mon-Fri - 10:00AM to 6:00PM</p>
-                <p className="modal-nomargin">Sat/Sun - 10:00AM to 3:00PM</p>
+                <p className="modal-nomargin">Mon-Sat - 10:00AM to 6:00PM</p>
             </Modal.Body>
 
             <Modal.Footer className="modal-footer">

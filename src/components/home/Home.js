@@ -44,12 +44,12 @@ function HomeDesktop() {
   
     const moonLevel = -4;
     const mountainLevel = 10;
-    const treeLevel = 8;
-    const wheelLevel = 8;
-    const balloonLevel = 4;
-    const backgroundLevel = 8;
-    const textTopLevel = 20;
-    const textTitleLevel = 20;
+    const treeLevel = 10;
+    const wheelLevel = 10;
+    const balloonLevel = -6;
+    const backgroundLevel = 10;
+    const textTopLevel = -10;
+    const textTitleLevel = -10;
   
     const interpMoon = springscrollY.interpolate(o => `translateY(${o / moonLevel}px)`);
     const interpMountains = springscrollY.interpolate(o => `translateY(${o / mountainLevel}px)`);

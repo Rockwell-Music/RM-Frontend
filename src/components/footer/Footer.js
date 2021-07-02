@@ -11,7 +11,7 @@ export default function Footer() {
             <Container className="footer-content">
                 <h1 className="footer-header">FOLLOW US</h1>
 
-                <a href="/" className="footer-link"><FaInstagram className="footer-icon" /></a>
+                <a href="https://www.instagram.com/rockwellmusicrepair" className="footer-link"><FaInstagram className="footer-icon" /></a>
                 <a href="/" className="footer-link"><FaFacebookSquare className="footer-icon" /></a>
                 <a href="/" className="footer-link"><FaLinkedinIn className="footer-icon" /></a>
 
